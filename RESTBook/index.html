@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- https://www.bootstrapcdn.com/ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js"></script>
+    <script src="https://unpkg.com/vue@next"></script>
+    <title>Book Shop</title>
+</head>
+<body>
+    <h1>Book Shop</h1>
+    <div id="app">
+        <h2>Get all books</h2>
+        <button id="getAllButton" v-on:click="getAllBooks" class="btn btn-primary">Get All Books</button>
+
+        <input v-model="titleToGetBy" placeholder="title" type="text" />
+        <button v-on:click="getByTitle(titleToGetBy)" class="btn btn-primary">Get by books</button>
+        <ul id="booklist" v-if="books.length">
+            <li v-for="book in books">
+      {{book.id}} {{book.title}} : {{ book.price}}
+
+
+
+
+    </div>
+</body>
+</html>

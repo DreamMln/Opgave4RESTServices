@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Excer1</name>
+    </assembly>
+    <members>
+        <member name="M:Excer1.Controllers.BookController.#ctor(Microsoft.Extensions.Caching.Memory.IMemoryCache)">
+            <summary>
+            Cache
+            </summary>
+            <param name="memoryCache"></param>
+        </member>
+        <member name="M:Excer1.Controllers.BookController.Get(System.String,System.Nullable{System.Int32},System.Int32)">
+            <summary>
+            This means that you can ask the controller for an object
+            with the specified id
+            </summary>
+            <param name="filter"></param>
+            <param name="minimumPrice"></param>
+            <returns>
+            <response code="404">its not found</response>
+            <response code="200">Everything is ok?</response>
+            </returns>
+        </member>
+        <member name="P:Excer1.Models.Book.ID">
+            <summary>
+            add an ID, Title and Price to the book
+            </summary>
+        </member>
+        <member name="M:Excer1.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            The AllowAnyOrigin could be replaced with WithOrigins which takes a string
+            (or string array) of allowed domains to call our services.
+            The AllowAnyMethod could be replaced with WithMethods which takes a string
+            (or string array) of which HTTP methods are allowed.
+            The AllowAnyHeader could be replaced with WithHeaders which takes a string
+            (or string array) of which HTTP headers (not default) are allowed.
+            Content-type could be one of these.
+            </summary>
+            <param name="services"></param>
+        </member>
+    </members>
+</doc>
