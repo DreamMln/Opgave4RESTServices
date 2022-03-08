@@ -16,12 +16,6 @@ namespace SimpleRESTService.Models.Tests
         //instance field
         private Car _car;
 
-        //[TestInitialize]
-        //public void Setup()
-        //{
-        //    Car car = new Car() { "Citroen", 5000, "pl48p"  };
-        //}
-
         [TestMethod()]
         public void ValidCarTest()
         {

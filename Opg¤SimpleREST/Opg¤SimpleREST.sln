@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg¤SimpleREST", "Opg¤SimpleREST.csproj", "{D558651F-9702-4B8F-98AE-1CDA525C06CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg¤SimpleRESTTests", "..\Opg¤SimpleRESTTests\Opg¤SimpleRESTTests.csproj", "{7FAF20C7-CFF3-41C6-B9DF-ADD982BDE298}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D558651F-9702-4B8F-98AE-1CDA525C06CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D558651F-9702-4B8F-98AE-1CDA525C06CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D558651F-9702-4B8F-98AE-1CDA525C06CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D558651F-9702-4B8F-98AE-1CDA525C06CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FAF20C7-CFF3-41C6-B9DF-ADD982BDE298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FAF20C7-CFF3-41C6-B9DF-ADD982BDE298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FAF20C7-CFF3-41C6-B9DF-ADD982BDE298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FAF20C7-CFF3-41C6-B9DF-ADD982BDE298}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F27F426-CBA3-43A7-B1FD-43DD56F4DF93}
+	EndGlobalSection
+EndGlobal
